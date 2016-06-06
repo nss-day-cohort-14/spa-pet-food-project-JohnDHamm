@@ -1,0 +1,56 @@
+* {
+	margin: 0;
+}
+
+div#container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+div#typeFood {
+	width: 100%;
+	text-align: center;
+	font-size: 2rem;
+	color: darkblue;
+	padding: 15px 0;
+}
+
+div.brand {
+	border: 3px solid grey;
+	margin: 20px 0;
+	padding: 5px;
+
+}
+
+div.type {
+	border: 1px solid black;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+div.type:nth-of-type(odd) {
+	background: lightgrey;
+}
+
+
+
+h1.brandName {
+	background: darkblue;
+	color: white;
+	padding: 10px;
+}
+
+h2.breed {
+	color: white;
+	background: grey;
+	font-style: italic;
+	font-size: 1.25rem;
+	padding: 5px 10px;
+}
+
+h3.typeName {
+	padding-bottom: 5px;
+}
+.price {
+	padding-left: 15px;
+}
